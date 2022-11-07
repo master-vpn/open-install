@@ -1,6 +1,6 @@
-{"Version":"1.1.0",
+{"Version":"1.1.1",
 
-"Url":"https://github.com/droperos/atcglub/raw/main/config.zip" ,
+"Url":"https://github.com/master-vpn/install/raw/main/config.zip" ,
 
 "Changelog":"
 🆕อัพเดทตอนนี้ กด ตกลง👇
