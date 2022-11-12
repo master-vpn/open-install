@@ -1,4 +1,4 @@
-{"Version":"11",
+{"Version":"12",
 
 "Url":"https://github.com/master-vpn/install/raw/main/config.zip" ,
 
