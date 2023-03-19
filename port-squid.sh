@@ -7,7 +7,7 @@ clear
 sqd="$(cat /etc/squid/squid.conf | grep -i http_port | awk '{print $2}' | head -n1)"
 sqd2="$(cat /etc/squid/squid.conf | grep -i http_port | awk '{print $2}' | tail -n1)"
 echo -e "**************************************"
-echo -e "             สคริปโดยdragonsth"​
+echo -e "             สคริปโดยmaster-vpn"​
 echo -e ""
 echo -e "     [1]  เปลี่ยนพอร์ต $sqd"
 echo -e "     [2]  เปลี่ยนพอร์ต $sqd2"
