@@ -1,6 +1,6 @@
 #!/bin/bash
 # สคริป​โดย​ master-vpn
-==================================================
+# ==================================================
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
