@@ -6,7 +6,7 @@ MYIP=$(wget -qO- icanhazip.com);
 clear
 echo -e ""
 echo -e "*************************************"
-echo -e "          สคริปโดยdragonsth"​
+echo -e "          สคริปโดยmaster-vpn"​
 echo -e ""
 echo -e "    [1] รีสตาร์ท​ทั้งหมด"
 echo -e "    [2] รีสตาร์ท​ OpenSSH"
