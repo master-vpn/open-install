@@ -6,13 +6,11 @@ MYIP=$(wget -qO- icanhazip.com);
 clear
 MYIP=$(wget -qO- icanhazip.com);
 ovpn="$(netstat -nlpt | grep -i openvpn | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2)"
-ovpn2="$(netstat -nlpu | grep -i openvpn | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2)"
 echo -e "**************************************"
 echo -e ""
 echo -e "             สคริปโดยmaster-vpn"​
 echo -e ""
 echo -e "     [1]  เปลี่ยนพอร์ต TCP $ovpn"
-echo -e "     [2]  เปลี่ยนพอร์ต UDP $ovpn2"
 echo -e "     [x]  ออก"
 echo -e "**************************************"
 echo -e ""
