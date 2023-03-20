@@ -38,20 +38,19 @@ sed -i 's/#net.ipv4.ip_forward=1/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
 # Buat config client TCP 1194
 cat > /etc/openvpn/TCP.ovpn <<-END
 client
-verb 3
 dev tun
 proto tcp
+remote xxxxxxxxx 1194
+http-proxy xxxxxxxxx 8080
 resolv-retry infinite
 route-method exe
 nobind
 persist-key
 persist-tun
-ping 5
-ping-restart 30
 comp-lzo
 auth-user-pass
-remote xxxxxxxxx 1194
-http-proxy xxxxxxxxx 8080
+keepalive 5 30
+verb 3
 END
 
 sed -i $MYIP2 /etc/openvpn/TCP.ovpn;
