@@ -40,16 +40,17 @@ cat > /etc/openvpn/TCP.ovpn <<-END
 client
 dev tun
 proto tcp
-remote xxxxxxxxx 1194
-http-proxy xxxxxxxxx 8080
+port 1194
 resolv-retry infinite
 route-method exe
 nobind
 persist-key
 persist-tun
-auth-user-pass
-comp-lzo
 verb 3
+comp-lzo
+auth-user-pass
+remote xxxxxxxxx 1194
+http-proxy xxxxxxxxx 8080
 END
 
 sed -i $MYIP2 /etc/openvpn/TCP.ovpn;
