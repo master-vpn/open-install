@@ -47,9 +47,8 @@ route-method exe
 nobind
 persist-key
 persist-tun
-comp-lzo
 auth-user-pass
-keepalive 5 30
+comp-lzo
 verb 3
 END
 
