@@ -49,7 +49,8 @@ persist-tun
 verb 3
 comp-lzo
 auth-user-pass
-remote xxxxxxxxx 1194
+remote xxxxxxxxx 1194 tcp-client
+http-proxy-retry
 http-proxy xxxxxxxxx 8080
 END
 
